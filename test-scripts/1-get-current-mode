@@ -1,0 +1,9 @@
+#!/bin/bash
+set -x
+TEST_SETTINGS=etc/settings
+
+echo get current transparent mode
+# Mode 00 PCMND XRW_MODE0_GET_MODE Code 0x00 Config XRW_MODE0_GET_CONFIG
+/opt/osdp-conformance/bin/open-osdp-kick ACU <${TEST_SETTINGS}/get-current-mode.json
+
+
