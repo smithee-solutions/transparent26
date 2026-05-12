@@ -1,2 +1,2 @@
 # transparent26
-Transparent Modet test support for libosdp-conformance
+Transparent Mode test support for libosdp-conformance
