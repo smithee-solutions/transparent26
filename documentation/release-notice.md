@@ -1,3 +1,8 @@
+# Changes in 0.02 #
+
+Added command/response format description research summary based on
+2015-vintage specification.
+
 # Changes in 0.01 #
 
 populated scripts directory with libosdp-conformance command sequences
