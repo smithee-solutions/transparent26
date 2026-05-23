@@ -2,13 +2,14 @@
 
 # assumes you have a working pandoc stack on the build machine...
 
-PUBLISHED=transparent-mode-questions_20260508.pdf
+PUBLISHED=\
+  transparent-mode-implementation-guidance.md
 
 all:	${PUBLISHED}
 
 clean:
 	rm -f ${PUBLISHED}
 
-transparent-mode-questions_20260508.pdf:	research/transparent-mode-questions_20260508.md
-	pandoc --toc -o transparent-mode-questions_20260508.pdf research/transparent-mode-questions_20260508.md
+transparent-mode-implementation-guidance.pdf:	research/transparent-mode-implementation-guidance.md
+	pandoc --toc -o transparent-mode-implementation-guidance.pdf research/transparent-mode-implementation-guidance.md
 
